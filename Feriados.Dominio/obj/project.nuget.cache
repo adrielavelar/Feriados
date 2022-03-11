@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pStqd30XbvBvMRXc4RqaVWSEnXIJSYhGScRwPPhl0CMCYn1kP/5tjagEmtCL+dZPKHM+LN+DIvzAegwUvd5EoA==",
+  "success": true,
+  "projectFilePath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
+  "expectedPackageFiles": [
+    "/Users/adrielavelar/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/adrielavelar/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/adrielavelar/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/adrielavelar/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

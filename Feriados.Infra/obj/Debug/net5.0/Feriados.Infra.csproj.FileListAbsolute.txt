@@ -1,0 +1,15 @@
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.csproj.AssemblyReference.cache
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.AssemblyInfoInputs.cache
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.AssemblyInfo.cs
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.csproj.CoreCompileInputs.cache
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/bin/Debug/net5.0/Feriados.Infra.deps.json
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/bin/Debug/net5.0/Feriados.Infra.dll
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/bin/Debug/net5.0/ref/Feriados.Infra.dll
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/bin/Debug/net5.0/Feriados.Infra.pdb
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/bin/Debug/net5.0/Feriados.Dominio.dll
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/bin/Debug/net5.0/Feriados.Dominio.pdb
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.csproj.CopyComplete
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.dll
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/ref/Feriados.Infra.dll
+/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/Debug/net5.0/Feriados.Infra.pdb

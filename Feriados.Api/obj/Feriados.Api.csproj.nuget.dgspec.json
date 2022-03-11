@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adrielavelar/Projects/Feriados/Feriados.Api/Feriados.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/adrielavelar/Projects/Feriados/Feriados.Api/Feriados.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adrielavelar/Projects/Feriados/Feriados.Api/Feriados.Api.csproj",
+        "projectName": "Feriados.Api",
+        "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Api/Feriados.Api.csproj",
+        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
+        "outputPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adrielavelar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj": {
+                "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj"
+              },
+              "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
+                "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj",
+        "projectName": "Feriados.CrossCutting",
+        "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj",
+        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
+        "outputPath": "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adrielavelar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
+                "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj"
+              },
+              "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj": {
+                "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
+        "projectName": "Feriados.Dominio",
+        "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
+        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
+        "outputPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adrielavelar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj",
+        "projectName": "Feriados.Infra",
+        "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj",
+        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
+        "outputPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adrielavelar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
+                "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

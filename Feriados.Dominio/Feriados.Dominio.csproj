@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entidades\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Interfaces\" />
+    <None Remove="Servicos\" />
+    <None Remove="Microsoft.Extensions.Configuration.Abstractions" />
+    <None Remove="Interfaces\Servicos\" />
+    <None Remove="Interfaces\Repositorios\" />
+    <None Remove="Respostas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Servicos\" />
+    <Folder Include="Interfaces\Servicos\" />
+    <Folder Include="Interfaces\Repositorios\" />
+    <Folder Include="Respostas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+</Project>
