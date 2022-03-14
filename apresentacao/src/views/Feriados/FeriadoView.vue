@@ -4,21 +4,15 @@
   </main>
 </template>
 
-<style lang="css">
-main {
-  padding: 32px;
-}
-</style>
-
 <script>
 import api from "../../lib/feriados";
 
 export default {
-    data(){
-        return {
-            list:[]
-        }
-    },
+  data() {
+    return {
+      list: [],
+    };
+  },
   computed: {
     bindings() {
       return {
@@ -56,7 +50,7 @@ export default {
           {
             key: "endTime",
             title: "Fim",
-          }
+          },
         ],
       };
     },
@@ -64,8 +58,13 @@ export default {
 
   methods: {
     handleAction(actionName, data) {
-      console.log(actionName, data);
-      window.alert("check out the console to see the logs");
+      if (actionName === "edit") {
+        this.$router.push({ name: "feriadosUpdate", params: { data } });
+      } else {
+        api.delete(data.id);
+        var index = this.list.findIndex((x) => x.id == data.id);
+        this.list.splice(index, 1);
+      }
     },
 
     get() {
@@ -77,7 +76,7 @@ export default {
 
       promise
         .then((values) => {
-          this.list= values;
+          this.list = values;
         })
         .catch((error) => alert("Erro: " + error.response.data));
     },
@@ -88,3 +87,9 @@ export default {
   },
 };
 </script>
+
+<style lang="css">
+main {
+  padding: 32px;
+}
+</style>

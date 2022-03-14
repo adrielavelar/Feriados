@@ -19,7 +19,7 @@ export default{
     delete(id){
         var response = false;
 
-        var url = urlBase + '/'+ id
+        var url = urlBase + '?id='+ id
         axios({
             method: 'DELETE',
             url: url,

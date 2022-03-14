@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import FeriadoView from '../views/Feriados/FeriadoView'
+import UpdateFeriadoView from '../views/Feriados/UpdateView'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,12 @@ const routes = [
     path: '/feriados',
     name: 'feriados',
     component: FeriadoView
+  },
+  {
+    path: '/feriados/update',
+    name: 'feriadosUpdate',
+    component: UpdateFeriadoView,
+    props: true
   },
   {
     path: '/about',
