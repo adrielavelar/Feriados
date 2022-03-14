@@ -55,10 +55,5 @@ namespace Feriados.Dominio.Servicos
                 await _feriadoRepositorio.AdicionarFeriado(feriadoEntity);
             }
         }
-
-        public Task<IEnumerable<Feriado>> ObtemFeriados()
-        {
-            return _feriadoRepositorio.ObtemFeriados();
-        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74LfWxlWRBRu8KnLtRNiGL00vOcRzRPkJ1B9ndzsZ16qx0t0Mjm9WZhsjlNcqfBoswa0dC0J8q9MIfQHfbGwPA==",
+  "dgSpecHash": "OoNf74UldFhWj0BfBE4QnwQ05X39obLNBCM6XKJWgWaVLcMs8zTg4cp50xAX1UqAGUNj7ro3HCrZc9XESCPTaw==",
   "success": true,
-  "projectFilePath": "/Users/adrielavelar/Projects/Feriados/Feriados.Api/Feriados.Api.csproj",
+  "projectFilePath": "/Users/adrielavelar/Projetos/Feriados/Feriados.Api/Feriados.Api.csproj",
   "expectedPackageFiles": [
     "/Users/adrielavelar/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/Users/adrielavelar/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",

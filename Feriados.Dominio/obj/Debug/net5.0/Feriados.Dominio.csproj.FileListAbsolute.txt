@@ -10,3 +10,15 @@
 /Users/adrielavelar/Projects/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.dll
 /Users/adrielavelar/Projects/Feriados/Feriados.Dominio/obj/Debug/net5.0/ref/Feriados.Dominio.dll
 /Users/adrielavelar/Projects/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.pdb
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/bin/Debug/net5.0/Feriados.Dominio.deps.json
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/bin/Debug/net5.0/Feriados.Dominio.dll
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/bin/Debug/net5.0/ref/Feriados.Dominio.dll
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/bin/Debug/net5.0/Feriados.Dominio.pdb
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.csproj.AssemblyReference.cache
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.AssemblyInfoInputs.cache
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.AssemblyInfo.cs
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.csproj.CoreCompileInputs.cache
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.dll
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/ref/Feriados.Dominio.dll
+/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/Debug/net5.0/Feriados.Dominio.pdb

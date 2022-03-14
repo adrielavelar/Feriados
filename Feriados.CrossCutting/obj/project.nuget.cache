@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u6XbNyT0Puvrgv3mZMkJ/u0eDbp6+TRMlOnOaAGyEBlU38RfYQrINYs3UtCCekS0UF95Jm7ev2Q/jCjxE9s6rA==",
+  "dgSpecHash": "rXoPJEaOrCtG+97VA3kmA8p07/zpPZpb3F89L8/jpbzv2lJtq/nxNSyk99FpdNz2EHPB5Hals86w6ipEhQc9Nw==",
   "success": true,
-  "projectFilePath": "/Users/adrielavelar/Projects/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj",
+  "projectFilePath": "/Users/adrielavelar/Projetos/Feriados/Feriados.CrossCutting/Feriados.CrossCutting.csproj",
   "expectedPackageFiles": [
     "/Users/adrielavelar/.nuget/packages/azure.core/1.6.0/azure.core.1.6.0.nupkg.sha512",
     "/Users/adrielavelar/.nuget/packages/azure.identity/1.3.0/azure.identity.1.3.0.nupkg.sha512",

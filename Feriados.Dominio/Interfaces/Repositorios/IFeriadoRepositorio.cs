@@ -9,5 +9,7 @@ namespace Feriados.Dominio.Interfaces.Repositorios
         Task<IEnumerable<Feriado>> ObtemFeriados();
         Task<int> AdicionarFeriado(Feriado feriado);
         Task<int> AdicionarDatas(VariableDates datas);
+        Task<bool> EditarFeriado(Feriado feriado);
+        Task<bool> ExcluirFeriado(int id);
     }
 }

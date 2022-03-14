@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Feriados.Dominio.Respostas;
+using Newtonsoft.Json;
 
 namespace Feriados.Dominio.Entidades
 {
@@ -22,6 +22,7 @@ namespace Feriados.Dominio.Entidades
 
         public string EndTime { get; set; }
 
+        [JsonIgnore]
         public VariableDates VariableDates { get; set; }
         public int VariableId { get; set; }
 
@@ -31,9 +32,9 @@ namespace Feriados.Dominio.Entidades
             {
                 Date = feriado.Date,
                 Description = feriado.Description,
-                EndTime = feriado.EndTime,
+                EndTime = feriado.EndTime == string.Empty? "23:59" : feriado.EndTime,
                 Legislation = feriado.Legislation,
-                StartTime = feriado.StartTime,
+                StartTime = feriado.StartTime == string.Empty? "00:00" : feriado.StartTime,
                 Title = feriado.Title,
                 Type = feriado.Type
             };

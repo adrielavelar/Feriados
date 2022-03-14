@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Feriados.Dominio.Entidades;
 using Feriados.Dominio.Interfaces.Repositorios;
@@ -11,7 +10,7 @@ namespace Feriados.Infra.Repositorios.Dapper
     public class FeriadoRepositorio : IFeriadoRepositorio
     {
         private readonly string _connectionString;
-        
+
         public FeriadoRepositorio(string connectionString)
         {
             _connectionString = connectionString;
@@ -38,7 +37,7 @@ namespace Feriados.Infra.Repositorios.Dapper
 
             using var conexao = new SqlConnection(_connectionString);
 
-            var resultado = await  conexao.QuerySingleAsync<int>(sql,
+            var resultado = await conexao.QuerySingleAsync<int>(sql,
                 new
                 {
                     datas.Ano2015,
@@ -93,9 +92,71 @@ namespace Feriados.Infra.Repositorios.Dapper
             return resultado;
         }
 
+        public async Task<bool> EditarFeriado(Feriado feriado)
+        {
+            var sql = @"UPDATE [FeriadosDb].[dbo].[Feriados]
+                            SET [Title] = @Title
+                            ,[Description] = @Description
+                            ,[Legislation] = @Legislation
+                            ,[Type] = @Type
+                            ,[StartTime] = @StartTime
+                            ,[EndTime] = @EndTime
+                            ,[Date] = @Date
+                        WHERE Id = @Id";
+
+            using var conexao = new SqlConnection(_connectionString);
+
+            var resultado = await conexao.ExecuteAsync(sql,
+                new
+                {
+                    feriado.Title,
+                    feriado.Description,
+                    feriado.Legislation,
+                    feriado.Type,
+                    feriado.StartTime,
+                    feriado.EndTime,
+                    feriado.Date,
+                    feriado.Id
+                },
+                commandType: System.Data.CommandType.Text);
+
+            if (resultado <= 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public async Task<bool> ExcluirFeriado(int id)
+        {
+            var sql = @"DELETE FROM [FeriadosDb].[dbo].[Feriados] WHERE Id = @Id";
+
+            using var conexao = new SqlConnection(_connectionString);
+
+            var resultado = await conexao.ExecuteAsync(sql,
+                new
+                {
+                    id
+                },
+                commandType: System.Data.CommandType.Text);
+
+            if (resultado <= 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
         public async Task<IEnumerable<Feriado>> ObtemFeriados()
         {
-            string sql = @"SELECT [Title]
+            string sql = @"SELECT [Date]
+                            ,[Title]
                             ,[Description]
                             ,[Legislation]
                             ,[Type]
@@ -103,8 +164,7 @@ namespace Feriados.Infra.Repositorios.Dapper
                             ,[EndTime]
                             ,[Id]
                             ,[VariableId]
-                            ,[Date]
-                        FROM [FeriadosDb].[dbo].[Feriados]";
+                        FROM [FeriadosDb].[dbo].[Feriados] ";
 
             using var conexao = new SqlConnection(_connectionString);
 

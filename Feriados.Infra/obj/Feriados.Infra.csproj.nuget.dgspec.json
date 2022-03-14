@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj": {}
+    "/Users/adrielavelar/Projetos/Feriados/Feriados.Infra/Feriados.Infra.csproj": {}
   },
   "projects": {
-    "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
+    "/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
+        "projectUniqueName": "/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
         "projectName": "Feriados.Dominio",
-        "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
+        "projectPath": "/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/Feriados.Dominio.csproj",
         "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/obj/",
+        "outputPath": "/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adrielavelar/.config/NuGet/NuGet.Config"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj": {
+    "/Users/adrielavelar/Projetos/Feriados/Feriados.Infra/Feriados.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj",
+        "projectUniqueName": "/Users/adrielavelar/Projetos/Feriados/Feriados.Infra/Feriados.Infra.csproj",
         "projectName": "Feriados.Infra",
-        "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/Feriados.Infra.csproj",
+        "projectPath": "/Users/adrielavelar/Projetos/Feriados/Feriados.Infra/Feriados.Infra.csproj",
         "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Infra/obj/",
+        "outputPath": "/Users/adrielavelar/Projetos/Feriados/Feriados.Infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adrielavelar/.config/NuGet/NuGet.Config"
@@ -88,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
-                "projectPath": "/Users/adrielavelar/Projects/Feriados/Feriados.Dominio/Feriados.Dominio.csproj"
+              "/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/Feriados.Dominio.csproj": {
+                "projectPath": "/Users/adrielavelar/Projetos/Feriados/Feriados.Dominio/Feriados.Dominio.csproj"
               }
             }
           }

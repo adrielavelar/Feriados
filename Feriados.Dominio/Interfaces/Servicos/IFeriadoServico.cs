@@ -7,7 +7,6 @@ namespace Feriados.Dominio.Interfaces
 {
     public interface IFeriadoServico
     {
-        Task<IEnumerable<Feriado>> ObtemFeriados();
         Task<IEnumerable<FeriadoResposta>> ObtemFeriadosApi();
         Task ProcessaFeriados();
     }
